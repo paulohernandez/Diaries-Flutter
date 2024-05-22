@@ -20,15 +20,16 @@ class SocialButton extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(top: 10),
-        width: 500,
+        width: 325,
+        height: 45,
         padding: EdgeInsets.all(8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5),
           border: Border(
-            top: BorderSide(color: Colors.black),
-            right: BorderSide(color: Colors.black),
-            bottom: BorderSide(color: Colors.black),
-            left: BorderSide(color: Colors.black),
+            top: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
+            right: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
+            bottom: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
+            left: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
           ),
         ),
         child: Row(
@@ -37,12 +38,16 @@ class SocialButton extends StatelessWidget {
             Icon(
               icon,
               color: iconColor,
-              size: 50,
+              size: 25,
             ),
-            Text(
-              'Continue with $socialMedia',
-              style: GoogleFonts.roboto(fontSize: 15),
-            ),
+            Expanded(
+              child: Center(
+                child: Text(
+                  'Continue with $socialMedia',
+                  style: GoogleFonts.roboto(fontSize: 16),
+                ),
+              ),
+            )
           ],
         ),
       ),
