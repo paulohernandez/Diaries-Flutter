@@ -44,7 +44,7 @@ class SocialButton extends StatelessWidget {
               child: Center(
                 child: Text(
                   'Continue with $socialMedia',
-                  style: GoogleFonts.roboto(fontSize: 16),
+                  style: Theme.of(context).textTheme.labelLarge,
                 ),
               ),
             )
