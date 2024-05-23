@@ -14,7 +14,16 @@ class _HomePage extends State<HomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Hello World'),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pop(context);
+                },
+                child: Image.asset(
+                  'images/logo.png',
+                  width: 150,
+                  height: 150,
+                ),
+              ),
             ],
           ),
         ),

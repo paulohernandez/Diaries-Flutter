@@ -19,11 +19,13 @@ class App extends StatelessWidget {
       ),
       theme: ThemeData(
         textTheme: TextTheme(
-            titleLarge: GoogleFonts.aBeeZee(),
+            titleLarge: GoogleFonts.aBeeZee(fontSize: 20),
             headlineLarge: GoogleFonts.aBeeZee(
-              fontSize: 24,
+              fontSize: 20,
               color: AppColors.primary,
             ),
+            labelLarge:
+                GoogleFonts.roboto(fontSize: 17, fontWeight: FontWeight.w600),
             bodySmall: GoogleFonts.aBeeZee(color: AppColors.gray)),
       ),
     );

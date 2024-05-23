@@ -27,19 +27,22 @@ class _SignUpPage extends State<SignUpPage> {
                       MaterialPageRoute(builder: (context) => HomePage()),
                     );
                   },
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(
-                        'images/logo.png',
-                        width: 125,
-                        height: 125,
-                      ),
-                      Text(
-                        'IARIES',
-                        style: TextStyle(fontSize: 50),
-                      ),
-                    ],
+                  child: Container(
+                    margin: EdgeInsets.only(top: 50),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset(
+                          'images/logo.png',
+                          width: 125,
+                          height: 125,
+                        ),
+                        Text(
+                          'IARIES',
+                          style: TextStyle(fontSize: 50),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Container(
@@ -60,6 +63,13 @@ class _SignUpPage extends State<SignUpPage> {
             ),
             Column(
               children: [
+                Container(
+                  margin: EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Login or create an account',
+                    style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
+                  ),
+                ),
                 SignUpButtons(),
                 Container(
                   margin: EdgeInsets.only(top: 30),
