@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'pages/sign_up_page.dart';
+import 'pages/signup_page.dart';
 import './utils/styles.dart';
 
 void main() {
