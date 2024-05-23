@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../customWidget/button.dart';
+import '../utils/styles.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SignUpButtons extends StatelessWidget {
   const SignUpButtons({super.key});
@@ -8,8 +10,8 @@ class SignUpButtons extends StatelessWidget {
     return Column(
       children: [
         SocialButton(
-          icon: Icons.mail,
-          iconColor: Color.fromRGBO(49, 111, 246, 1),
+          icon: FontAwesomeIcons.google,
+          iconColor: AppColors.primary,
           socialMedia: 'Google',
         ),
         SocialButton(
@@ -19,7 +21,7 @@ class SignUpButtons extends StatelessWidget {
         ),
         SocialButton(
           icon: Icons.apple,
-          iconColor: Color.fromRGBO(108, 108, 112, 1),
+          iconColor: Color.fromRGBO(43, 43, 48, 1),
           socialMedia: 'Apple',
         ),
         SocialButton(

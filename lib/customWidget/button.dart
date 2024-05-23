@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../utils/styles.dart';
 
 class SocialButton extends StatelessWidget {
   final IconData icon;
@@ -26,10 +26,10 @@ class SocialButton extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5),
           border: Border(
-            top: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
-            right: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
-            bottom: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
-            left: BorderSide(color: Color.fromRGBO(0, 0, 0, .8)),
+            top: BorderSide(color: AppColors.black),
+            right: BorderSide(color: AppColors.black),
+            bottom: BorderSide(color: AppColors.black),
+            left: BorderSide(color: AppColors.black),
           ),
         ),
         child: Row(
