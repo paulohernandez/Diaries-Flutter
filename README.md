@@ -1,16 +1,13 @@
-# diaries_flutter
+# Diaries_Flutter
 
-A new Flutter project.
+A flutter diary app for everyone
+-In this digital age where everything resides online, I've developed an app tailored to the times—a diary for the modern individual. Here, users can pen down their thoughts, experiences, and happenings, all while remaining anonymous.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application. But this App is on development proccess
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Feature 1: [Signup page , this page you can sign up using facebook,google account ,apple,email]
+-Feature 2: [Home page, this page will display other user's feed, and you can react]
